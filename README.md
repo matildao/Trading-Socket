@@ -20,3 +20,7 @@ Following scripts are available:
 ```javascript
 "node": "node index.js"
 ```
+
+To make the repo work you need to add a .env file with the environment variable:
+
+API_BASE=[Your api here] or create a list of objects directly in the project that the socket can fetch from.
