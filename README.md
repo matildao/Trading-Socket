@@ -24,3 +24,7 @@ Following scripts are available:
 To make the repo work you need to add a .env file with the environment variable:
 
 API_BASE=[Your api here] or create a list of objects directly in the project that the socket can fetch from.
+
+
+#### Socket
+I chose to use socket.io since I used it previously and I liked the way it worked. For the application I chose to use the data from the trading-api to get the prices of the products in the database to make it possible to manipulate them in the future for a realtime buy and sell functionality.
